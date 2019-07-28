@@ -7,22 +7,13 @@
 
 import React, {useState} from "react";
 import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 import "../styles/app.scss";
 
 const Layout = ({ name, skills, children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-  const [dark, setDark] = useState(false);
+  const systemDark = window.matchMedia('(prefers-color-scheme : dark)');
+  const [dark, setDark] = useState(systemDark.matches);
   return (
     <div className={`theme ${dark ? 'theme--dark' : 'theme--light' }`}>
       <div className="mainBody">

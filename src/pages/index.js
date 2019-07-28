@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
 import data from "../data/cv.json";
 
@@ -50,8 +48,8 @@ const IndexPage = () => (
             {el.title} - {el.location}
             <ul>
               {
-                el.info.map(inf => 
-                  <li>{inf}</li>
+                el.info.map((inf, i) => 
+                  <li key={`inf-${i}`}>{inf}</li>
                 )
               }
             </ul>
