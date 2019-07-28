@@ -1,0 +1,50 @@
+{
+  "name": "Liam Kennedy",
+  "date": "2019-07-26",
+  "personal_details": {
+    "location": "Cambridge, UK",
+    "email": "liam@lkenn.xyz",
+    "linkedin": "https://linkedin.com/in/lkennxyz",
+    "github": "https://github.com/lkennxyz"
+  },
+  "personal_summary": "Passionate software developer looking to transition into a new technology stack and experience new challenges. Always looking to keep learning new skills in various fields, push for innovation, and find a forward thinking, technology focussed company I can be excited to work for.",
+  "skills": ["Javascript", "ES2015+", "Vue.js", "React", "Redux", "Node.js", "Express", "GraphQL", "C#", "MongoDB", "SQL", "Linux", "Git", "CI/CD", "Azure", "Heroku"],
+  "education": [
+    {
+      "date": "October 2015",
+      "title": "BSc. (Hons) Computer Gaming Technology",
+      "location": "Anglia Ruskin University",
+      "grade": "Upper Second Class Honours"
+    },
+    {
+      "date": "June 2012",
+      "title": "A Levels in Maths with Statistics, Psychology, Human Biology",
+      "location": "Royal Latin School",
+      "grade": ""
+    }
+  ],
+  "experience": [
+    {
+      "from_date": "August 2017",
+      "to_date": "Present",
+      "title": "IT Developer",
+      "location": "South Staffordshire Plc. (Cambridge)",
+      "info": [
+        "Created a Vue.js app deployed to Azure with Azure DevOps within a short deadline to interface with an existing API after problems arose with an existing app.",
+        "Kickstarted development of a chatbot to solve a problem within the business and drive innovation using Azure resources and Node.js.",
+        "Bug fixing and investigation on legacy software that was handed over by another team."
+      ]
+    },
+    {
+      "from_date": "August 2015",
+      "to_date": "August 2017",
+      "title": "IT Developer",
+      "location": "South Staffs Water (Cambridge)",
+      "info": [
+        "Worked to improve data quality and identify problem areas in preparation for changes to the water industry, using SQL Server Reporting Services.",
+        "Used ASP.NET and Windows Forms to create tools for internal use."
+      ]
+    }
+  ],
+  "interests": "Interested in all things technology, playing video and board games and reading manga. I run a fantasy Ice Hockey league for a group of friends and act as Dungeon Master for a small Dungeons & Dragons game."
+}
