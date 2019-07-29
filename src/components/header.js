@@ -13,16 +13,15 @@ const Header = ({ siteTitle, setDark, dark }) => (
         </Link>
       </h1>
       <div className="toggle">
-        <label className="" htmlFor="theme-toggle">
-          <FontAwesomeIcon
-            icon={faSun}
-            />
-        </label>
-        <input id="theme-toggle" className="" type="checkbox" checked={dark} onChange={() => setDark(!dark)}/>
-        <label className="" htmlFor="theme-toggle">
-          <FontAwesomeIcon
-            icon={faMoon}
-            />
+        <input id="theme-toggle" className="toggle-checkbox" type="checkbox" checked={dark} onChange={() => setDark(!dark)}/>
+        <label className="toggle-label" htmlFor="theme-toggle">
+          <span 
+            className="toggle-inner"
+            switchon="Light"
+            switchoff="Dark"
+          >
+           </span>
+          <span className="toggle-switch"></span>
         </label>
       </div>
     </div>
