@@ -17,8 +17,10 @@ const Header = ({ siteTitle, setDark, dark }) => (
         <label className="toggle-label" htmlFor="theme-toggle">
           <span 
             className="toggle-inner"
-            switchon="Light"
-            switchoff="Dark"
+            sm-on=" "
+            sm-off=" "
+            lg-on="Dark"
+            lg-off="Light"
           >
            </span>
           <span className="toggle-switch"></span>
