@@ -11,7 +11,7 @@ import PropTypes from "prop-types";
 import Header from "./header";
 import "../styles/app.scss";
 
-const Layout = ({ name, skills = [], children }) => {
+const Layout = ({ name, children }) => {
   const [dark, setDark] = useState(false);
   useEffect(() => {
     const systemDark = window.matchMedia('(prefers-color-scheme : dark)');
@@ -22,16 +22,6 @@ const Layout = ({ name, skills = [], children }) => {
       <div className="mainBody">
         <Header siteTitle={name} setDark={setDark} dark={dark}/>
         <div className="content">
-          <div className="leftBar">
-            <h3>Skills</h3>
-            <ul>
-              {
-                skills.map((el, i) => 
-                <li key={i}>{el}</li>
-                )
-              }
-            </ul>
-          </div>
           <main className="main">{children}</main>
         </div>
         <footer>

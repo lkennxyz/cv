@@ -1,0 +1,75 @@
+header {
+  grid-area: header;
+}
+.header {
+  margin-bottom: 1.45em;
+  width: 100%;
+  height: 10%;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-areas: ". center toggle";
+  > {
+    h1 {
+      margin: 1em, auto, 1em, auto;
+      text-align: center;
+      grid-area: center;
+      > a {
+        text-decoration: none;
+        margin: 0;
+        @include themed() {
+          color: t($text-important);
+        };
+      }
+    }
+    .toggle{
+    grid-area: toggle !important;
+    margin:auto;
+    }
+  }
+}
+.skills {
+  text-align: center;
+  grid-area: skills;
+  > ul {
+    overflow: auto;
+    list-style-type: none;
+    > li {
+      float: left;
+      margin-right: 0px;
+      @include themed() {
+        border-right: 1px solid t($text);
+      };
+      padding: 0 20px;
+      :last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+.area {
+  padding: 1em;
+}
+.summary {
+  grid-area: summary;
+  font-size: 1.25em;
+  font-style: italic;
+}
+.education {
+  grid-area: education;
+}
+.interests {
+  grid-area: interests;
+}
+.details {
+  grid-area: details;
+  > a {
+    text-decoration: none;
+    @include themed()  {
+      color: t($text);
+    };
+    transition: color 0.5s;
+  }
+}
+.experience {
+  grid-area: experience;
+}

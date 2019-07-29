@@ -10,9 +10,18 @@ import data from "../data/cv.json";
 const IndexPage = () => (
   <Layout 
     name={data.name}
-    skills={data.skills}
   >
     <SEO title="Home" />
+    <div className="skills area">
+      <h3>Skills</h3>
+        <ul>
+          {
+            data.skills.map((el, i) => 
+            <li key={i}>{el}</li>
+            )
+          }
+        </ul>
+    </div>
     <div className="summary area">
       {data.personal_summary}
     </div>

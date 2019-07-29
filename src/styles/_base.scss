@@ -2,11 +2,13 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 .theme {
   height: 100vh;
@@ -20,105 +22,44 @@ body {
   margin: 0, auto;
   transition: color 0.5s, background-color 0.5s;
   height: inherit;
-}
-.header {
-  margin-bottom: 1.45rem;
   display: grid;
-  grid-template-columns: 10% 80% 10%;
-  grid-template-areas: ". center end";
-  width: 100%;
-  height: 10%;
-  > {
-    h1 {
-      grid-area: center;
-      margin: 1rem, auto, 1rem, auto;
-      text-align: center;
-      > a {
-        text-decoration: none;
-        margin: 0;
-        @include themed() {
-          color: t($text-important);
-        };
-      }
-    }
-    .toggle{
-    grid-area: end;
-    margin:auto;
-    }
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 10% auto 5%;
+    grid-template-areas:
+      "header header header"
+      ". main ."
+      ". footer ."
+  }
+  @media only screen and (max-width: 768px) {
+
   }
 }
 .content {
   margin: 0, auto;
-  display: flex;
-  flex-direction: column; 
-}
-.leftBar {
-  margin: 1em;
-  text-align: center;
-  > ul {
-    overflow: auto;
-    list-style-type: none;
-    > li {
-      float: left;
-      margin-right: 0px;
-      @include themed() {
-        border-right: 1px solid t($text);
-      };
-      padding: 0 20px;
-      :last-child {
-        border-right: none;
-      }
-    }
-  }
+  grid-area: main;
+  //overflow: auto;
 }
 main {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-rows: 10% 10% 20% 20% 20% 20%;
   grid-template-areas: 
-    "summary details"
-    "summary experience"
-    "education experience"
-    "education experience"
-    "interests experience";
-  font-size: 1rem;
+    "skills skills"
+    "details summary"
+    "experience summary"
+    "experience education"
+    "experience education"
+    "experience interests";
+  font-size: 1em;
 }
 h3 {
   margin: 0.5em;
+  text-align: center;
   @include themed() {
     color: t($text-important);
   };
 }
-.area {
-  padding: 1em;
-}
-.summary {
-  grid-area: summary;
-  font-size: 1.25em;
-  font-style: italic;
-}
-.education {
-  grid-area: education;
-}
-.interests {
-  grid-area: interests;
-}
-.details {
-  grid-area: details;
-  > a {
-    text-decoration: none;
-    @include themed()  {
-      color: t($text);
-    };
-    transition: color 0.5s;
-  }
-}
-.experience {
-  grid-area: experience;
-}
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem; 
+  grid-area: footer;
 }
