@@ -5,15 +5,18 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 import Header from "./header";
 import "../styles/app.scss";
 
-const Layout = ({ name, skills, children }) => {
-  const systemDark = window.matchMedia('(prefers-color-scheme : dark)');
-  const [dark, setDark] = useState(systemDark.matches);
+const Layout = ({ name, skills = [], children }) => {
+  const [dark, setDark] = useState(false);
+  useEffect(() => {
+    const systemDark = window.matchMedia('(prefers-color-scheme : dark)');
+    setDark(systemDark);
+  }, []);
   return (
     <div className={`theme ${dark ? 'theme--dark' : 'theme--light' }`}>
       <div className="mainBody">
