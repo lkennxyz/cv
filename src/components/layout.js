@@ -15,7 +15,7 @@ const Layout = ({ name, skills = [], children }) => {
   const [dark, setDark] = useState(false);
   useEffect(() => {
     const systemDark = window.matchMedia('(prefers-color-scheme : dark)');
-    setDark(systemDark);
+    setDark(systemDark.matches);
   }, []);
   return (
     <div className={`theme ${dark ? 'theme--dark' : 'theme--light' }`}>
