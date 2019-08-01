@@ -13,12 +13,15 @@ import "../styles/app.scss";
 
 const Layout = ({ name, children }) => {
   const [dark, setDark] = useState(false);
+  const [big, setBig] = useState(false);
   useEffect(() => {
+    if (document.getElementsByTagName("body")[0].height > window.innerHeight)
+      setBig(() => true);
     const systemDark = window.matchMedia('(prefers-color-scheme : dark)');
     setDark(systemDark.matches);
   }, []);
   return (
-    <div className={`theme ${dark ? 'theme--dark' : 'theme--light' }`}>
+    <div className={`theme ${dark ? 'theme--dark' : 'theme--light' } ${big ? 'theme--big' : 'theme--small'}`}>
       <div className="mainBody">
         <Header siteTitle={name} setDark={setDark} dark={dark}/>
         <div className="content">
