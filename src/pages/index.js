@@ -30,8 +30,8 @@ const IndexPage = () => (
       {
         data.education.map((el, i) => 
           <div key={`ed-${i}`}>
-            {el.date} - {el.title}<br/>
-            {el.location}<br/>
+            <h4>{el.title}</h4>
+            {el.location} - {el.date}<br/>
             {el.grade}<br/>
           </div>
         )
@@ -43,18 +43,18 @@ const IndexPage = () => (
     </div>
     <div className="details area">
       <h3>Personal Details</h3>
-      <FontAwesomeIcon icon={ faMapMarkerAlt }/> {data.personal_details.location}<br/>
-      <a href={`mailto:${data.personal_details.email}`}><FontAwesomeIcon icon={ faEnvelope }/> {data.personal_details.email}</a><br/>
-      <a href={data.personal_details.linkedin}><FontAwesomeIcon icon={ faLinkedin }/> {data.personal_details.linkedin}</a><br/>
-      <a href={data.personal_details.github}><FontAwesomeIcon icon={ faGithubSquare }/> {data.personal_details.github}</a><br/>
+      <FontAwesomeIcon className="icon" icon={ faMapMarkerAlt }/> {data.personal_details.location}<br/>
+      <a href={`mailto:${data.personal_details.email}`}><FontAwesomeIcon className="icon" icon={ faEnvelope }/> {data.personal_details.email}</a><br/>
+      <a href={data.personal_details.linkedin}><FontAwesomeIcon className="icon" icon={ faLinkedin }/> {data.personal_details.linkedin}</a><br/>
+      <a href={data.personal_details.github}><FontAwesomeIcon className="icon" icon={ faGithubSquare }/> {data.personal_details.github}</a><br/>
     </div>
     <div className="experience area">
       <h3>Experience</h3>
       {
         data.experience.map((el, i) => 
           <div key={`ex-${i}`}>
+            <h4>{el.title} - {el.location}</h4>
             {el.from_date} - {el.to_date}<br/>
-            {el.title} - {el.location}
             <ul>
               {
                 el.info.map((inf, i) => 

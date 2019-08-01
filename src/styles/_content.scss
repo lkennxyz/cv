@@ -80,8 +80,14 @@ header {
     @include themed()  {
       color: t($text);
     };
-    transition: color 0.5s;
+    transition: color 0.5s ease-in;
   }
+}
+.icon {
+  @include themed() {
+    color: t($text-important);
+  }
+  transition: color 0.5s ease-in;
 }
 .experience {
   grid-area: experience;
