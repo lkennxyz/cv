@@ -9,11 +9,13 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 import Header from "./header";
+import Pdf from "./pdf";
 import "../styles/app.scss";
 
 const Layout = ({ name, children }) => {
   const [dark, setDark] = useState(false);
   const [big, setBig] = useState(false);
+  const [pdfMode, setPdfMode] = useState(false);
   useEffect(() => {
     if (document.getElementsByTagName("body")[0].height > window.innerHeight)
       setBig(() => true);
@@ -23,14 +25,17 @@ const Layout = ({ name, children }) => {
   return (
     <div className={`theme ${dark ? 'theme--dark' : 'theme--light' } ${big ? 'theme--big' : 'theme--small'}`}>
       <div className="mainBody">
-        <Header siteTitle={name} setDark={setDark} dark={dark}/>
+        <Header siteTitle={name} setDark={setDark} dark={dark} pdfMode={pdfMode}/>
         <div className="content">
           <main className="main">{children}</main>
         </div>
-        <footer>
+        <footer className={`${pdfMode ? 'pdf-mode': ''}`}>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <Pdf
+            setPdfMode={setPdfMode}
+          />
         </footer>
       </div>
     </div>

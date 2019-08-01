@@ -19,7 +19,9 @@ body {
     height: 100vh;
   }
 }
-
+.pdf-mode {
+  display: none;
+}
 .mainBody {
   @include themed() {
     background: t($bg);
