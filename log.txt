@@ -1,0 +1,147 @@
+⠋ open and validate gatsby-configs
+[2K[1A[2K[Gsuccess open and validate gatsby-configs - 0.074 s
+⠋ open and validate gatsby-configs
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ load plugins
+[2K[1A[2K[Gsuccess load plugins - 0.376 s
+⠋ load plugins
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ onPreInit
+[2K[1A[2K[Gsuccess onPreInit - 0.025 s
+⠋ onPreInit
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ delete html and css files from previous builds
+[2K[1A[2K[Gsuccess delete html and css files from previous builds - 0.044 s
+⠋ delete html and css files from previous builds
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ initialize cache
+[2K[1A[2K[Gsuccess initialize cache - 0.034 s
+⠋ initialize cache
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ copy gatsby files
+[2K[1A[2K[Gsuccess copy gatsby files - 0.080 s
+⠋ copy gatsby files
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ onPreBootstrap
+[2K[1A[2K[Gsuccess onPreBootstrap - 0.028 s
+⠋ onPreBootstrap
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ source and transform nodes
+[2K[1A[2K[G⠙ source and transform nodes
+[2K[1A[2K[Gsuccess source and transform nodes - 0.122 s
+⠙ source and transform nodes
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ building schema
+[2K[1A[2K[G⠙ building schema
+[2K[1A[2K[Gsuccess building schema - 0.292 s
+⠙ building schema
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ createPages
+[2K[1A[2K[Gsuccess createPages - 0.021 s
+⠋ createPages
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ createPagesStatefully
+[2K[1A[2K[Gsuccess createPagesStatefully - 0.075 s
+⠋ createPagesStatefully
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ onPreExtractQueries
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.034 s
+⠋ onPreExtractQueries
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ update schema
+[2K[1A[2K[Gsuccess update schema - 0.082 s
+⠋ update schema
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ extract queries from components
+[2K[1A[2K[Gsuccess extract queries from components - 0.307 s
+⠋ extract queries from components
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ write out requires
+[2K[1A[2K[Gsuccess write out requires - 0.040 s
+⠋ write out requires
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ write out redirect data
+[2K[1A[2K[Gsuccess write out redirect data - 0.026 s
+⠋ write out redirect data
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ onPostBootstrap
+[2K[1A[2K[G⠋ onPostBootstrap
+⠋ Build manifest and related icons
+[2K[1A[2K[1A[2K[G⠙ onPostBootstrap
+⠋ Build manifest and related icons
+[2K[1A[2K[1A[2K[G⠙ onPostBootstrap
+⠙ Build manifest and related icons
+[2K[1A[2K[1A[2K[Gsuccess Build manifest and related icons - 0.202 s
+⠙ onPostBootstrap
+⠙ Build manifest and related icons
+[2K[1A[2K[1A[2K[G⠙ onPostBootstrap
+[2K[1A[2K[Gsuccess onPostBootstrap - 0.245 s
+⠙ onPostBootstrap
+[2K[1A[2K[G
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[Ginfo bootstrap finished - 4.451 s
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[G⠋ run static queries
+[2K[1A[2K[G⠋ run static queries — 1/2 37.11 queries/second
+[2K[1A[2K[G⠋ run static queries — 2/2 48.21 queries/second
+[2K[1A[2K[Gsuccess run static queries - 0.073 s — 2/2 48.21 queries/second
+⠋ run static queries — 2/2 48.21 queries/second
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠙ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠹ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠸ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠼ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠴ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠦ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠧ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠇ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠏ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠋ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠙ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠹ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠸ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠼ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠴ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠦ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠧ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠇ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠏ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠋ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠙ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠹ Building production JavaScript and CSS bundles
+[2K[1A[2K[G⠸ Building production JavaScript and CSS bundles
+[2K[1A[2K[Gsuccess Building production JavaScript and CSS bundles - 8.743 s
+⠸ Building production JavaScript and CSS bundles
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ run page queries
+[2K[1A[2K[G⠋ run page queries — 1/3 127.80 queries/second
+[2K[1A[2K[G⠋ run page queries — 2/3 187.25 queries/second
+[2K[1A[2K[G⠋ run page queries — 3/3 235.62 queries/second
+[2K[1A[2K[Gsuccess run page queries - 0.047 s — 3/3 235.62 queries/second
+⠋ run page queries — 3/3 235.62 queries/second
+[2K[1A[2K[G
+[2K[1A[2K[G⠋ Building static HTML for pages
+[2K[1A[2K[G⠙ Building static HTML for pages
+[2K[1A[2K[G⠹ Building static HTML for pages
+[2K[1A[2K[G⠸ Building static HTML for pages
+[2K[1A[2K[G⠼ Building static HTML for pages
+[2K[1A[2K[G⠴ Building static HTML for pages
+[2K[1A[2K[G⠦ Building static HTML for pages
+[2K[1A[2K[G⠧ Building static HTML for pages
+[2K[1A[2K[G⠇ Building static HTML for pages
+[2K[1A[2K[G⠇ Building static HTML for pages — 3/3 15.71 pages/second
+[2K[1A[2K[Gsuccess Building static HTML for pages - 1.001 s — 3/3 15.71 pages/second
+⠇ Building static HTML for pages — 3/3 15.71 pages/second
+[2K[1A[2K[G
+[2K[1A[2K[G
+Post Build - generating pdfs
+
+
+[2K[1A[2K[G<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><style data-href="/styles.0696cd5f1267dd0b2ba5.css">.toggle{position:relative;width:3em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}@media only screen and (min-width:768px){.toggle{width:90px}}.toggle-checkbox{display:none}.toggle-label{display:block;overflow:hidden;cursor:pointer;border-radius:20px}.theme--light .toggle-label{border:2px solid #006}.theme--dark .toggle-label{border:2px solid #36f}.toggle-inner{display:block;width:200%;margin-left:-100%;-webkit-transition:margin .1s ease-in 0s;transition:margin .1s ease-in 0s}@media only screen and (min-width:768px){.toggle-inner{-webkit-transition:margin .3s ease-in 0s;transition:margin .3s ease-in 0s}}.toggle-inner:after,.toggle-inner:before{display:block;float:left;width:50%;height:30px;padding:0;line-height:30px;font-size:14px;color:#f5f4f3;font-family:Trebuchet,Arial,sans-serif;font-weight:700;box-sizing:border-box}.toggle-inner:before{content:attr(sm-on);padding-left:.5em;background-color:#f5f4f3;color:#333}@media only screen and (min-width:768px){.toggle-inner:before{content:attr(lg-on);padding-left:10px}}.toggle-inner:after{content:attr(sm-off);padding-right:.5em;background-color:#333;color:#f5f4f3;text-align:right}@media only screen and (min-width:768px){.toggle-inner:after{content:attr(lg-off);padding-right:10px}}.toggle-switch{display:block;width:1em;margin:6px;background:#fff;position:absolute;top:0;bottom:0;right:1em;border-radius:1.1em;-webkit-transition:all .3s ease-in 0s;transition:all .3s ease-in 0s}@media only screen and (min-width:768px){.toggle-switch{width:18px}}.theme--light .toggle-switch{border:2px solid #006}.theme--dark .toggle-switch{border:2px solid #36f}@media only screen and (min-width:768px){.toggle-switch{right:56px;border-radius:20px;-webkit-transition:all .3s ease-in 0s;transition:all .3s ease-in 0s}}.toggle-checkbox:checked+.toggle-label .toggle-inner{margin-left:0}.toggle-checkbox:checked+.toggle-label .toggle-switch{right:0}header{grid-area:header}.header{margin-bottom:1.45em;width:100%;height:10%;display:grid}@media only screen and (min-width:768px){.header{grid-template-columns:10% 80% 10%;grid-template-areas:". center toggle"}}@media only screen and (max-width:768px){.header{grid-template-columns:25% 25% 25% 25%;grid-template-rows:20% 80%;grid-template-areas:". . . toggle" ". center center ."}}.header>h1{margin:1em,auto,1em,auto;text-align:center;grid-area:center}.header>h1>a{text-decoration:none;margin:0}.theme--light .header>h1>a{color:#006}.theme--dark .header>h1>a{color:#36f}.header>.toggle{grid-area:toggle!important;margin:auto}.skills{text-align:center;grid-area:skills}.skills>ul{overflow:auto;list-style-type:none}@media only screen and (max-width:768px){.skills>ul{padding:0}}.skills>ul :last-child{border-right:0!important}.skills>ul>li{float:left;margin-right:0;margin-left:0;padding:0 1em}.theme--light .skills>ul>li{border-right:1px solid #333}.theme--dark .skills>ul>li{border-right:1px solid #f5f4f3}.area{padding:1em}.summary{grid-area:summary;font-size:1.25em;font-style:italic}.education{grid-area:education}.interests{grid-area:interests}.details{grid-area:details}.details>a{text-decoration:none;-webkit-transition:color .5s ease-in;transition:color .5s ease-in}.theme--light .details>a{color:#333}.theme--dark .details>a{color:#f5f4f3}.icon{-webkit-transition:color .5s ease-in;transition:color .5s ease-in}.theme--light .icon{color:#006}.theme--dark .icon{color:#36f}.experience{grid-area:experience}footer{grid-area:footer;display:flex;flex-direction:row;justify-content:space-between;width:100%}footer .gatsbyLink{margin:.5em 0}.theme--light footer .gatsbyLink a{text-decoration:none;color:#006}.theme--dark footer .gatsbyLink a{text-decoration:none;color:#36f}footer h4{cursor:pointer}.theme--light footer h4{color:#006}.theme--dark footer h4{color:#36f}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,html{height:100%}body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.theme{margin-top:0;width:100%}.theme+.theme--big{height:100%}.theme+.theme--small{height:100vh}.pdf-mode{display:none}.mainBody{margin:0,auto;-webkit-transition:color .5s ease-in,background-color .5s ease-in;transition:color .5s ease-in,background-color .5s ease-in;height:inherit;display:grid;grid-template-columns:5% 90% 5%;grid-template-rows:10% auto 5%;grid-template-areas:"header header header" ". main ." ". footer ."}.theme--light .mainBody{background:#f5f4f3;color:#333}.theme--dark .mainBody{background:#333;color:#f5f4f3}.content{margin:0,auto;grid-area:main}main{display:grid;font-size:1em}@media only screen and (min-width:768px){main{grid-template-columns:50% 50%;grid-template-rows:.25fr .5fr .75fr .5fr;grid-template-areas:"skills skills" "details summary" "experience education" "experience interests"}}@media only screen and (max-width:768px){main{grid-template-columns:100%;grid-template-rows:100/6% 100/6% 100/6% 100/6% 100/6% 100/6%;grid-template-areas:"skills" "details" "summary" "experience" "education" "interests"}}h3{margin:.5em;text-align:center}.theme--light h3{color:#006}.theme--dark h3{color:#36f}h4{margin:.5em 0}</style><meta name="generator" content="Gatsby 2.13.39"><title data-react-helmet="true">Home | Liam Kennedy CV</title><meta data-react-helmet="true" name="description" content="CV for Liam Kennedy"><meta data-react-helmet="true" property="og:title" content="Home"><meta data-react-helmet="true" property="og:description" content="CV for Liam Kennedy"><meta data-react-helmet="true" property="og:type" content="website"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="twitter:creator" content="@lkennxyz"><meta data-react-helmet="true" name="twitter:title" content="Home"><meta data-react-helmet="true" name="twitter:description" content="CV for Liam Kennedy"><link rel="shortcut icon" href="/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#663399"><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606"><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=008654519ce705ac7bc44303a9014606"><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=008654519ce705ac7bc44303a9014606"><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=008654519ce705ac7bc44303a9014606"><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=008654519ce705ac7bc44303a9014606"><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=008654519ce705ac7bc44303a9014606"><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=008654519ce705ac7bc44303a9014606"><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=008654519ce705ac7bc44303a9014606"><link as="script" rel="preload" href="/webpack-runtime-d202d44ff3e5da3e4e15.js"><link as="script" rel="preload" href="/app-8781cf7bb9103b1e43ec.js"><link as="script" rel="preload" href="/styles-d0be531d1d22ecc8af30.js"><link as="script" rel="preload" href="/1-0e59b45c073e9fedd2e6.js"><link as="script" rel="preload" href="/6-61bf6c1d6a5b25e078a2.js"><link as="script" rel="preload" href="/component---src-pages-index-js-607881eab762b195abf6.js"><link as="fetch" rel="preload" href="/page-data/index/page-data.json" crossorigin="use-credentials"><style type="text/css">.pdfMode: {display: none}</style></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="theme theme--light theme--small" id="export-body"><div class="mainBody"><header><div class="header"><h1><a aria-current="page" class="" href="/">Liam Kennedy</a></h1><div class="toggle pdfMode"><input type="checkbox" id="theme-toggle" class="toggle-checkbox"><label class="toggle-label" for="theme-toggle"><span class="toggle-inner" sm-on=" " sm-off=" " lg-on="Dark" lg-off="Light"></span><span class="toggle-switch"></span></label></div></div></header><div class="content"><main class="main"><div class="skills area"><h3>Skills</h3><ul><li>Javascript</li><li>ES2015+</li><li>Vue.js</li><li>React</li><li>Redux</li><li>Node.js</li><li>Express</li><li>GraphQL</li><li>C#</li><li>MongoDB</li><li>SQL</li><li>Linux</li><li>Git</li><li>CI/CD</li><li>Azure</li><li>Heroku</li></ul></div><div class="summary area">Passionate software developer looking to transition into a new technology stack and experience new challenges. Always looking to keep learning new skills in various fields, push for innovation, and find a forward thinking, technology focussed company I can be excited to work for.</div><div class="education area"><h3>Education</h3><div><h4>BSc. (Hons) Computer Gaming Technology</h4>Anglia Ruskin University<!-- --> - <!-- -->October 2015<br>Upper Second Class Honours<br></div><div><h4>A Levels in Maths with Statistics, Psychology, Human Biology</h4>Royal Latin School<!-- --> - <!-- -->June 2012<br><br></div></div><div class="interests area"><h3>Interests</h3>Interested in all things technology, playing video and board games and reading manga. I run a fantasy Ice Hockey league for a group of friends and act as Dungeon Master for a small Dungeons &amp; Dragons game.</div><div class="details area"><h3>Personal Details</h3><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt fa-w-12 icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg> <!-- -->Cambridge, UK<br><a href="mailto:liam@lkenn.xyz"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16 icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg> <!-- -->liam@lkenn.xyz</a><br><a href="https://linkedin.com/in/lkennxyz"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14 icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg> <!-- -->https://linkedin.com/in/lkennxyz</a><br><a href="https://github.com/lkennxyz"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github-square" class="svg-inline--fa fa-github-square fa-w-14 icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"></path></svg> <!-- -->https://github.com/lkennxyz</a><br></div><div class="experience area"><h3>Experience</h3><div><h4>IT Developer<!-- --> - <!-- -->South Staffordshire Plc. (Cambridge)</h4>August 2017<!-- --> - <!-- -->Present<br><ul><li>Created a Vue.js app deployed to Azure with Azure DevOps within a short deadline to interface with an existing API after problems arose with an existing app.</li><li>Kickstarted development of a chatbot to solve a problem within the business and drive innovation using Azure resources and Node.js.</li><li>Bug fixing and investigation on legacy software that was handed over by another team.</li></ul></div><div><h4>IT Developer<!-- --> - <!-- -->South Staffs Water (Cambridge)</h4>August 2015<!-- --> - <!-- -->August 2017<br><ul><li>Worked to improve data quality and identify problem areas in preparation for changes to the water industry, using SQL Server Reporting Services.</li><li>Used ASP.NET and Windows Forms to create tools for internal use.</li></ul></div></div></main></div><footer class="pdfMode"><span class="gatsbyLink">© <!-- -->2019<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></span><a href="Liam Kennedy - CV.pdf"><h4>Download as PDF</h4></a></footer></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";window.webpackCompilationHash="f9c79c9f44e4c31e7c30";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-8781cf7bb9103b1e43ec.js"],"component---src-pages-404-js":["/component---src-pages-404-js-40bda68454d08a8afdcf.js"],"component---src-pages-index-js":["/component---src-pages-index-js-607881eab762b195abf6.js"]};/*]]>*/</script><script src="/component---src-pages-index-js-607881eab762b195abf6.js" async=""></script><script src="/6-61bf6c1d6a5b25e078a2.js" async=""></script><script src="/1-0e59b45c073e9fedd2e6.js" async=""></script><script src="/styles-d0be531d1d22ecc8af30.js" async=""></script><script src="/app-8781cf7bb9103b1e43ec.js" async=""></script><script src="/webpack-runtime-d202d44ff3e5da3e4e15.js" async=""></script></body></html>
+
+[2K[1A[2K[Ginfo Done building in 16.879799446 sec
+

@@ -7,9 +7,10 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import data from "../data/cv.json";
 
-const IndexPage = () => (
+const IndexPage = ({ pageContext }) => (
   <Layout 
-    name={data.name}
+    name = {data.name}
+    downloadFile = {pageContext.downloadFile}
   >
     <SEO title="Home" />
     <div className="skills area">

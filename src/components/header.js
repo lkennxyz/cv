@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle, setDark, dark, pdfMode }) => (
+const Header = ({ siteTitle, setDark, dark }) => (
   <header>
     <div className="header">
       <h1>
@@ -10,7 +10,7 @@ const Header = ({ siteTitle, setDark, dark, pdfMode }) => (
           {siteTitle}
         </Link>
       </h1>
-      <div className={`toggle ${pdfMode ? 'pdf-mode': ''}`}>
+      <div className="toggle pdfMode">
         <input id="theme-toggle" className="toggle-checkbox" type="checkbox" checked={dark} onChange={() => setDark(!dark)}/>
         <label className="toggle-label" htmlFor="theme-toggle">
           <span 

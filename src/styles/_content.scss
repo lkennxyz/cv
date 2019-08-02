@@ -92,3 +92,25 @@ header {
 .experience {
   grid-area: experience;
 }
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  .gatsbyLink {
+    margin: 0.5em 0 0.5em 0;
+    a {
+      @include themed() {
+        text-decoration: none;
+        color : t($text-important);
+      };
+    }
+  }
+  h4 {
+    cursor: pointer;
+    @include themed() {
+      color: t($text-important);
+    };
+  }
+}

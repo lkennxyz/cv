@@ -1,10 +1,12 @@
-module.exports = {
-  siteMetadata: {
+const puppeteer = require('puppeteer');
+
+  exports.siteMetadata = {
     title: `Liam Kennedy CV`,
     description: `CV for Liam Kennedy`,
     author: `@lkennxyz`,
-  },
-  plugins: [
+    pdfPrefix: `/pdf`,
+  };
+  exports.plugins = [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
@@ -28,8 +30,13 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `pdf-export`,
+      options: {
+        path: `/`,
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-  ],
-}
+  ];
