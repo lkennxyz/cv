@@ -15,13 +15,13 @@ const IndexPage = ({ pageContext }) => (
     <SEO title="Home" />
     <div className="skills area">
       <h3>Skills</h3>
-        <ul>
+        <div className="skillList">
           {
             data.skills.map((el, i) => 
-            <li key={i}>{el}</li>
+            <h4 key={`skill-${i}`}>{el}</h4>
             )
           }
-        </ul>
+        </div>
     </div>
     <div className="summary area">
       {data.personal_summary}

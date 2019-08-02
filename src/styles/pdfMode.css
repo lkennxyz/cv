@@ -3,7 +3,7 @@
 }
 main {
   grid-template-columns: 50% 50%;
-  grid-template-rows: 0.25fr 0.5fr 0.75fr 0.5fr;
+  grid-template-rows: 0.25fr 0.5fr 0.25fr 0.5fr;
   grid-template-areas: 
     "skills skills"
     "details summary"
