@@ -51,7 +51,6 @@ async function printPDF(pageName) {
   await page.emulateMedia('screen');
   await page.pdf({
     format: 'A4',
-    margin: { top: '1cm', bottom: '1cm' },
     path: path.join(
       __dirname,
       '..',
