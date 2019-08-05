@@ -15,7 +15,10 @@ const Layout = ({ name, downloadFile, children }) => {
   const [dark, setDark] = useState(false);
   const [big, setBig] = useState(false);
   useEffect(() => {
-    if (document.getElementsByTagName("body")[0].height > window.innerHeight)
+    const themeHeight = document.querySelector(".theme");
+    const bodyHeight = document.querySelector("body");
+    console.log(`theme: ${themeHeight.offsetHeight} body: ${bodyHeight.offsetHeight} window: ${window.innerHeight}`);
+    if (document.querySelector(".theme").offsetHeight >= window.innerHeight)
       setBig(() => true);
     const systemDark = window.matchMedia('(prefers-color-scheme : dark)');
     setDark(systemDark.matches);

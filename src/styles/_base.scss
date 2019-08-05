@@ -14,10 +14,10 @@ body {
 .theme {
   margin-top: 0;
   width: 100%;
-  + .theme--big {
+  &.theme--big {
     height: 100%;
   }
-  + .theme--small {
+  &.theme--small {
     height: 100vh;
   }
 }
