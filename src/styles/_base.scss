@@ -14,12 +14,13 @@ body {
 .theme {
   margin-top: 0;
   width: 100%;
-  + .theme--big {
+  height: 100vh;
+  /*+ .theme--big {
     height: 100%;
   }
   + .theme--small {
     height: 100vh;
-  }
+  }*/
 }
 .pdf-mode {
   display: none;
@@ -29,6 +30,7 @@ body {
     background: t($bg);
     color: t($text);
   }
+  overflow: auto;
   margin: 0, auto;
   transition: color 0.5s ease-in, background-color 0.5s ease-in;
   height: inherit;
