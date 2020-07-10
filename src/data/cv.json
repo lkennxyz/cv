@@ -25,8 +25,18 @@
   ],
   "experience": [
     {
-      "from_date": "August 2017",
+      "from_date": "March 2020",
       "to_date": "Present",
+      "title": "Solutions Developer",
+      "location": "Linguamatics Plc.",
+      "info": [
+        "Worked to maintain and improve a critical piece of legacy software built with jQueryUI",
+        "Created new React components in Typescript for a business critical demo"
+      ]
+    },
+    {
+      "from_date": "August 2017",
+      "to_date": "March 2020",
       "title": "IT Developer",
       "location": "South Staffordshire Plc. (Cambridge)",
       "info": [
